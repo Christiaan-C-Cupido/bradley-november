@@ -65,3 +65,35 @@ a:hover {
     background-color: rgba(0, 0, 0, 0.7); /* Dark overlay */
     z-index: 0;
 }
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    z-index: 2; /* Ensures text stays above video */
+}
+
+.hero-text h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+.hero-text p {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.profile-photo {
+    width: 250px; /* Adjust size as needed */
+    height: 250px;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image fills the circle */
+    object-position: center; /* Centers the image inside the circle */
+    border: 2px solid white; /* Optional: adds a white border */
+    margin-bottom: 15px; /* Space below the photo */
+}

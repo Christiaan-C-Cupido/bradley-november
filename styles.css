@@ -13,7 +13,7 @@ header {
     position: fixed;
     width: 100%;
     background: rgba(0, 0, 0, 0.7);
-    padding: 15px;
+    padding: 20px;
     z-index: 1;
 }
 
@@ -29,11 +29,15 @@ nav ul li {
 
 nav ul li a {
     color: #fff;
+    font-weight: 200px;
     text-decoration: none;
+    font-size: 20px;
+    transition: font-size 1 ease-out;
 }
 
 a:hover {
-    color: rgba(75, 218, 8, 0.945);
+    color: rgba(218, 162, 8, 0.945);
+    font-size: 1.2rem;
 }
 
 .video-container {
@@ -75,7 +79,7 @@ a:hover {
     color: white;
     font-size: 2rem;
     font-weight: bold;
-    z-index: 2; /* Ensures text stays above video */
+    z-index: 0; /* Ensures text stays above video */
 }
 
 .hero-text h1 {
@@ -96,4 +100,60 @@ a:hover {
     object-position: center; /* Centers the image inside the circle */
     border: 2px solid white; /* Optional: adds a white border */
     margin-bottom: 15px; /* Space below the photo */
+}
+
+.scroll-down {
+    position: absolute;
+    bottom: 20px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%); /* Centers horizontally */
+    width: 70px; /* Adjust size as needed */
+    height: auto; /* Keeps aspect ratio */
+    /*animation: bounce 1.5s infinite;  Optional: Adds bounce effect */
+}
+
+
+/*=== About Section ===*/
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 10%;
+    background-color: #f8f8f8; /* Light background */
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    width: 100%;
+    gap: 50px; /* Spacing between image and text */
+}
+
+.about-img {
+    width: 250px; /* Adjust size */
+    height: 360px;
+    border-radius: 10px; /* Makes it circular */
+    object-fit: cover;
+    border: 4px solid white;
+}
+
+.about-text {
+    flex: 1; /* Takes remaining space */
+    max-width: 100%;
+    text-align: left;
+    background: gray;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.about-text h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.about-text p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #ffffff;
 }

@@ -158,3 +158,38 @@ a:hover {
     line-height: 1.5;
     color: #ffffff;
 }
+
+/*=== SERVICE SECTION ===*/
+.services {
+    color: black;
+    text-align: center;
+    padding: 60px 20px;
+    background: #f4f4f4;
+}
+.service-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.service-card {
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.icon-container {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 10px;
+}
+.service-card i {
+    font-size: 30px;
+    color: white;
+}

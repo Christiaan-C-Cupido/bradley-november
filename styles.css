@@ -250,9 +250,10 @@ nav ul li a:hover {
     padding: 15px;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
+    
 }
 
-.project-card:hover .project-info {
+.project-card .project-info {
     opacity: 1;
 }
 

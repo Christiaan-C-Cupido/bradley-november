@@ -30,7 +30,7 @@ nav ul li {
 
 nav ul li a {
     color: #fff;
-    font-weight: 200px;
+    font-weight:bold;
     text-decoration: none;
     font-size: 20px;
     transition: font-size 1 ease-out;

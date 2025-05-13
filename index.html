@@ -21,29 +21,34 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <div id="home" class="video-container">
-        <video autoplay muted loop id="bg-video">
-            <source src="./assests/videos/Brad_video2.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-        <div class="overlay"></div>
-        <div class="hero-text">
-            <img src="assests/img/bradley_1.1.jpg" alt="Profile Photo" class="profile-photo">
-            <div class="social-icon">
+   <div id="home" class="video-container">
+    <video autoplay muted loop id="bg-video">
+        <source src="./assests/videos/Brad_video2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="overlay"></div>
+    <div class="hero-text">
+        <img src="assests/img/bradley_1.1.jpg" alt="Profile Photo" class="profile-photo">
+        <div class="social-icon">
             <span><a href="https://www.instagram.com/bradley_november?igsh=MWczdDg5NTR3Zzk2cQ=="><i class="fab fa-instagram"></i></a></span>
             <span><a href="https://www.facebook.com/share/1B5Z1z9zqA/"><i class="fab fa-facebook-square"></i></a></span>
             <span><a href="https://www.tiktok.com/@brainy_brad?_t=ZM-8tu66L6lKvW&_r=1"><i class="fa-brands fa-tiktok"></i></a></span>
-            </div>
-            <h1 class="animate__animated animate__fadeInUp">Bradley November</h1>
-            <p>Content Creator</p>
         </div>
-        <img src="./assests/img/scroll_down.gif" alt="Scroll Down" class="scroll-down">
+        <h1 class="animate__animated animate__fadeInUp">Bradley November</h1>
+        <p style="font-size: larger;">Content Creator</p>
+        
+        <!-- Contact Info Start -->
+        <div class="contact-details">
+            <p>bradley@example.com || 075 489 8067</p>
+        </div>
+        <!-- Contact Info End -->
     </div>
+    <img src="./assests/img/scroll_down.gif" alt="Scroll Down" class="scroll-down">
+</div>
 
     <section id="about" class="about-section">
         <div class="about-container">
@@ -105,7 +110,7 @@
         <h2 class="portfolio-title">Portfolio</h2>
         <div class="portfolio-grid">
             <!-- Project 1 -->
-            <a href="https://example.com/project2" class="project-card" target="_blank">
+            <a href="https://www.instagram.com/share/reel/_0nE5wZqx" class="project-card" target="_blank">
                 <video class="project-media" autoplay loop muted>
                     <source src="./assests/videos/Brad_video1.mp4" type="video/mp4">
                 </video>
@@ -133,7 +138,7 @@
             </a>
             <!-- Project 4 -->
             <a href="https://example.com/project3" class="project-card" target="_blank">
-                <img src="./assests/img/Bradley_4.jpg" alt="Project 3" class="project-media">
+                <img src="./assests/img/Bradley_5.jpg" alt="Project 3" class="project-media">
                 <div class="project-info">
                     <h3></h3>
                     <p>Ackermans</p>
@@ -141,7 +146,7 @@
             </a>
             <!-- Project 5 -->
             <a href="https://example.com/project3" class="project-card" target="_blank">
-                <img src="./assests/img/Bradley_4.jpg" alt="Project 3" class="project-media">
+                <img src="./assests/img/Bradley_6.jpg" alt="Project 3" class="project-media">
                 <div class="project-info">
                     <h3></h3>
                     <p>Foneyam South Africa</p>
@@ -163,23 +168,11 @@
     <br>
     <br>
 
-    <!--Contact Form-->
-        <div class="contact-container">
-            <h2>Contact Us</h2>
-            <form id="contactForm">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-    
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-    
-                <button type="submit">Send Message</button>
-                <p id="formMessage"></p>
-            </form>
-        </div>
+<footer style="background-color: #222; color: #fff; padding: 20px 0; text-align: center;">
+    <div style="max-width: 1200px; margin: auto; padding: 0 20px;">
+    <p style="margin: 5px 0;">Designed by Christiaan C Cupido</p>
+    </div>
+</footer>
     
         <script src="script.js"></script>
 </body>
